@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import { Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Navbar from '../src/components/Navbar';
 import Home from "../src/pages/Home";
