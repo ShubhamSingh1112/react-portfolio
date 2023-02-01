@@ -5,21 +5,27 @@ import Box from '@mui/material/Box';
 export default class Navbar extends Component {
   render() {
     return (
-        <Box
-      sx={{
-        width: '100%',
-        height: 'auo',
-        backgroundColor: 'primary.dark',
-        '&:hover': {
-          backgroundColor: 'primary.main',
-          opacity: [0.9, 0.8, 0.7],
-        },
-      }}
-    >
-        <Link className="" to="/">Home</Link>
-        <Link className="" to="/About">About</Link>
-        <Link className="" to="/Portfolio">Portfolio</Link>
-        <Link className="" to="/Contact">Contact</Link>
+      <Box
+        sx={{
+          width: '100%',
+          height: 'auto',
+          backgroundColor: 'primary.dark',
+          flexGrow: 1,
+          display: 'flex'
+        }}
+      >
+        <Box sx={{ p: 1 }}>
+          <Link className="" to="/">Home</Link>
+        </Box>
+        <Box sx={{ p: 1 }}>
+          <Link className="" to="/About">About</Link>
+        </Box>
+        <Box sx={{ p: 1 }}>
+          <Link className="" to="/Portfolio">Portfolio</Link>
+        </Box>
+        <Box sx={{ p: 1 }}>
+          <Link className="" to="/Contact" sx={{ p: 1 }}>Contact</Link>
+        </Box>
       </Box>
     )
   }
