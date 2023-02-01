@@ -11,20 +11,21 @@ export default class Navbar extends Component {
           height: 'auto',
           backgroundColor: 'primary.dark',
           flexGrow: 1,
-          display: 'flex'
+          display: 'flex',
+          justifyContent: 'center'
         }}
       >
         <Box sx={{ p: 1 }}>
-          <Link className="" to="/">Home</Link>
+          <Link className="light" to="/">Home</Link>
         </Box>
         <Box sx={{ p: 1 }}>
-          <Link className="" to="/About">About</Link>
+          <Link className="light" to="/About">About</Link>
         </Box>
         <Box sx={{ p: 1 }}>
-          <Link className="" to="/Portfolio">Portfolio</Link>
+          <Link className="light" to="/Portfolio">Portfolio</Link>
         </Box>
         <Box sx={{ p: 1 }}>
-          <Link className="" to="/Contact" sx={{ p: 1 }}>Contact</Link>
+          <Link className="light" to="/Contact" sx={{ p: 1 }}>Contact</Link>
         </Box>
       </Box>
     )
