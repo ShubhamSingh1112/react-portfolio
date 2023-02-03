@@ -16,8 +16,11 @@ export default function Portfoliogrid() {
   return (
     <Box sx={{ flexGrow: 1 }} maxWidth="lg" style={{margin: 'auto'}}>
       <Grid container spacing={2}>
-        <Grid xs={8}>
-          <Item>xs=8</Item>
+        <Grid xs={4}>
+          <Item>xs=4</Item>
+        </Grid>
+        <Grid xs={4}>
+          <Item>xs=4</Item>
         </Grid>
         <Grid xs={4}>
           <Item>xs=4</Item>
@@ -25,8 +28,11 @@ export default function Portfoliogrid() {
         <Grid xs={4}>
           <Item>xs=4</Item>
         </Grid>
-        <Grid xs={8}>
-          <Item>xs=8</Item>
+        <Grid xs={4}>
+          <Item>xs=4</Item>
+        </Grid>
+        <Grid xs={4}>
+          <Item>xs=4</Item>
         </Grid>
       </Grid>
     </Box>
