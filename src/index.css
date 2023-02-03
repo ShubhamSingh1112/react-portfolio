@@ -14,4 +14,23 @@ body {
 .light {
     color: #fff;
     text-decoration: none;
+    position: relative;
+    margin: 0.5rem;
+}
+
+.light::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    bottom: -3px;
+    transition: 0.2s ease-in-out;
+    transform: scale(0);
+    transform-origin: left;
+}
+
+.light:hover::before {
+    transform: scale(1);
+    transform-origin: left;
 }
