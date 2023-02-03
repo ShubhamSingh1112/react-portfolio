@@ -34,3 +34,8 @@ body {
     transform: scale(1);
     transform-origin: left;
 }
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+}

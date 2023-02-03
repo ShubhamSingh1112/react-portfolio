@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React App + CoinStats API",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: "./media/placeholder.png",
     link: "https://candid-belekoy-19ce6e.netlify.app/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React Image Search Using Unsplash API.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+    image: "./media/placeholder.png",
     link: "https://silver-faloodeh-032cab.netlify.app/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React App + Openweathermap API",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "./media/placeholder.png",
     link: "https://sweet-palmier-e326fd.netlify.app/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React Recipe App Using Edamami API.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "./media/placeholder.png",
     link: "https://aesthetic-shortbread-37b4f3.netlify.app/",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "GYM.FIT Web design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-5.gif",
+    image: "./media/placeholder.png",
     link: "https://www.behance.net/gallery/134418391/GYMFIT-website-design-landing-page",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     subtitle: "Chat App UI Design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-6.gif",
+    image: "./media/placeholder.png",
     link: "https://www.behance.net/gallery/156920521/Chat-App-UI",
   },
 ];
