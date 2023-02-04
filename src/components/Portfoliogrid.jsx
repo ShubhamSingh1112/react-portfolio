@@ -17,22 +17,22 @@ export default function Portfoliogrid() {
   return (
     <Box sx={{ flexGrow: 1 }} maxWidth="lg" style={{ margin: 'auto' }}>
       <Grid container spacing={2}>
-        {projects.map(({ image, subtitle, title, link }) => {
+        {projects.map(({ id, image, subtitle, title, link }) => {
           return (
             <Grid xs={4}>
-              <Item>
-              <img
-                className="project-img"
-                src={image}
-                alt="content"
-              />
-              <h3>
-                {subtitle}
-              </h3>
-              <h2>
-                {title}
-              </h2>
-              <a href={link}>Go To Link</a>
+              <Item key={id}>
+                <img
+                  className="project-img"
+                  src={image}
+                  alt="content"
+                />
+                <h3>
+                  {subtitle}
+                </h3>
+                <h2>
+                  {title}
+                </h2>
+                <a href={link}>Go To Link</a>
               </Item>
             </Grid>
           );
