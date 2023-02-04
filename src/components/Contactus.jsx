@@ -16,16 +16,17 @@ export const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   return (
     <form ref={form} onSubmit={sendEmail}>
       <InputLabel>Name</InputLabel>
-      <TextField margin="normal" fullWidth id="outlined-basic" label="Outlined" variant="outlined" name="user_name" required />
+      <TextField margin="normal" fullWidth id="name" label="Enter Name" variant="outlined" name="user_name" required />
       <InputLabel>Email</InputLabel>
-      <TextField margin="normal" fullWidth id="outlined-basic" label="Outlined" variant="outlined" type="email" name="user_email" required />
+      <TextField margin="normal" fullWidth id="email" label="Enter Email" variant="outlined" type="email" name="user_email" required />
       <InputLabel>Message</InputLabel>
-      <TextField margin="normal" rows={4} multiline fullWidth id="outlined-basic" label="Outlined" variant="outlined" name="message" required />
+      <TextField margin="normal" rows={4} multiline fullWidth id="message" label="Message" variant="outlined" name="message" required />
       <Button variant="contained" type="submit">Send</Button>
     </form>
   );
